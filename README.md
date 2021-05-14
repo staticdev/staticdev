@@ -34,5 +34,3 @@
 
 </details>
 </p>
-
-[linkedin]: https://linkedin.com/in/staticdev
