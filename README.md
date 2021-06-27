@@ -1,6 +1,6 @@
 <h1 align="center"> Welcome, I'm Thiago - aka staticdev 👋 </h1>
 
-- 🔭 I’m currently working with **telecom**
+- 🔭 I’m currently working with **telco**
 - 🌱 I’m a researcher in **chatbots and artificial intelligence**
 - 👯 I’m collaborating **assorted open-source projects**
 - 💬 Ask me **about anything [here](https://github.com/staticdev/staticdev/issues)**
