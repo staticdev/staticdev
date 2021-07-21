@@ -1,4 +1,4 @@
-<h1 align="center"> Welcome, I'm Thiago - aka staticdev 👋 </h1>
+<h1 align="center"> Welcome, I'm Thiago AKA staticdev 👋 </h1>
 
 - 🔭 I’m currently working with **telco**
 - 🌱 I’m a researcher in **chatbots and artificial intelligence**
