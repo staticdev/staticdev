@@ -9,8 +9,4 @@
 
 <br />
 
----
-
-<summary>:ocean: Github Stats</summary>
-
-  <img align="center" alt="staticdev's Github Stats" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=staticdev&show_icons=true&hide_border=true&bg_color=00000000" />
+<img align="center" alt="staticdev's Github Stats" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=staticdev&show_icons=true&hide_border=true&bg_color=00000000" />
