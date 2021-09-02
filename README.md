@@ -11,26 +11,6 @@
 
 ---
 
-<p>
-<details>
-  <summary>:sun_with_face: Recent Github Activity</summary>
-  
-<!--START_SECTION:activity-->
-1. 🎉 Merged PR [#356](https://github.com/staticdev/git-portfolio/pull/356) in [staticdev/git-portfolio](https://github.com/staticdev/git-portfolio)
-2. 🎉 Merged PR [#81](https://github.com/staticdev/human-readable/pull/81) in [staticdev/human-readable](https://github.com/staticdev/human-readable)
-3. 🗣 Commented on [#356](https://github.com/staticdev/git-portfolio/issues/356) in [staticdev/git-portfolio](https://github.com/staticdev/git-portfolio)
-4. 🎉 Merged PR [#358](https://github.com/staticdev/git-portfolio/pull/358) in [staticdev/git-portfolio](https://github.com/staticdev/git-portfolio)
-5. 🗣 Commented on [#81](https://github.com/staticdev/human-readable/issues/81) in [staticdev/human-readable](https://github.com/staticdev/human-readable)
-<!--END_SECTION:activity-->
-
-</details>
-</p>
-
-<p>
-<details>
-  <summary>:ocean: Github Stats</summary>
+<summary>:ocean: Github Stats</summary>
 
   <img align="center" alt="staticdev's Github Stats" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=staticdev&show_icons=true&hide_border=true&bg_color=00000000" />
-
-</details>
-</p>
