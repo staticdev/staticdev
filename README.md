@@ -9,4 +9,7 @@
 
 <br />
 
-<img align="center" alt="staticdev's Github Stats" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=staticdev&show_icons=true&hide_border=true&bg_color=00000000" />
+<p align = "center">
+  <img alt="staticdev's Github Stats" src="https://github-readme-stats.vercel.app/api?username=staticdev&show_icons=true&hide_border=true" width=400 />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=staticdev&hide_border=true" width=400>
+</p>
