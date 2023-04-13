@@ -34,6 +34,7 @@ for repo in repos:
     cog.out(entry)
 
 repos = [
+    "nextcloud/ansible-collection-nextcloud-admin",
     "staticdev/linux-workstation-playbook",
     "staticdev/cleancontacts",
     "staticdev/dotfiles-eg",
@@ -49,7 +50,6 @@ for repo in repos:
     cog.out(entry)
 
 repos = [
-    ("aalaesar/install_nextcloud", 13830), 
     ("staticdev/ansible-role-python-developer", 55262),
     ("staticdev/ansible-role-signal", 55466),
     ("staticdev/ansible-role-brave", 55985),
@@ -100,6 +100,10 @@ for repo, galaxy_id in repos:
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/git-portfolio?logo=python&style=flat-square)
   [![PyPI](https://img.shields.io/pypi/v/git-portfolio?style=flat-square)](https://pypi.org/project/git-portfolio)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/git-portfolio?style=flat-square)](https://pypistats.org/packages/git-portfolio)
+- [ansible-collection-nextcloud-admin](https://github.com/nextcloud/ansible-collection-nextcloud-admin) &mdash;
+  ![GitHub stars](https://img.shields.io/github/stars/nextcloud/ansible-collection-nextcloud-admin?style=flat-square)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/nextcloud/ansible-collection-nextcloud-admin?logo=python&style=flat-square)
+  [![Version](https://img.shields.io/github/release/nextcloud/ansible-collection-nextcloud-admin.svg)](https://github.com/nextcloud/ansible-collection-nextcloud-admin/releases/)
 - [linux-workstation-playbook](https://github.com/staticdev/linux-workstation-playbook) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/staticdev/linux-workstation-playbook?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/linux-workstation-playbook?logo=python&style=flat-square)
@@ -109,12 +113,6 @@ for repo, galaxy_id in repos:
 - [dotfiles-eg](https://github.com/staticdev/dotfiles-eg) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/staticdev/dotfiles-eg?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/dotfiles-eg?logo=python&style=flat-square)
-- [install_nextcloud](https://github.com/aalaesar/install_nextcloud) &mdash;
-  ![GitHub stars](https://img.shields.io/github/stars/aalaesar/install_nextcloud?style=flat-square)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/aalaesar/install_nextcloud?logo=python&style=flat-square)
-  [![Version](https://img.shields.io/github/release/aalaesar/install_nextcloud.svg)](https://github.com/aalaesar/install_nextcloud/releases/)
-  [![Downloads](https://img.shields.io/ansible/role/d/13830)](https://galaxy.ansible.com/aalaesar/install_nextcloud)
-  [![Quality](https://img.shields.io/ansible/quality/13830)](https://galaxy.ansible.com/aalaesar/install_nextcloud)
 - [ansible-role-python-developer](https://github.com/staticdev/ansible-role-python-developer) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-python-developer?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-python-developer?logo=python&style=flat-square)
