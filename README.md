@@ -19,7 +19,6 @@ repos = [
     "magmax/python-inquirer",
     "staticdev/irpf-investidor",
     "staticdev/human-readable",
-    "staticdev/git-portfolio",
 ]
 
 for repo in repos:
@@ -95,11 +94,6 @@ for repo, galaxy_id in repos:
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/human-readable?logo=python&style=flat-square)
   [![PyPI](https://img.shields.io/pypi/v/human-readable?style=flat-square)](https://pypi.org/project/human-readable)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/human-readable?style=flat-square)](https://pypistats.org/packages/human-readable)
-- [git-portfolio](https://github.com/staticdev/git-portfolio) &mdash;
-  ![GitHub stars](https://img.shields.io/github/stars/staticdev/git-portfolio?style=flat-square)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/git-portfolio?logo=python&style=flat-square)
-  [![PyPI](https://img.shields.io/pypi/v/git-portfolio?style=flat-square)](https://pypi.org/project/git-portfolio)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/git-portfolio?style=flat-square)](https://pypistats.org/packages/git-portfolio)
 - [ansible-collection-nextcloud-admin](https://github.com/nextcloud/ansible-collection-nextcloud-admin) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/nextcloud/ansible-collection-nextcloud-admin?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/nextcloud/ansible-collection-nextcloud-admin?logo=python&style=flat-square)
