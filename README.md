@@ -16,7 +16,6 @@ I maintain these open-source projects:
 repos = [
     "PyCQA/isort",
     "sigmavirus24/github3.py",
-    "magmax/python-inquirer",
     "staticdev/irpf-investidor",
     "staticdev/human-readable",
 ]
@@ -51,9 +50,9 @@ for repo in repos:
 repos = [
     ("staticdev/ansible-role-python-developer", 55262),
     ("staticdev/ansible-role-signal", 55466),
+    ("staticdev/ansible-role-pyenv", 55478),
     ("staticdev/ansible-role-brave", 55985),
     ("staticdev/ansible-role-firefox", 55555),
-    ("staticdev/ansible-role-pyenv", 55478),
 ]
 
 for repo, galaxy_id in repos:
@@ -79,11 +78,6 @@ for repo, galaxy_id in repos:
   ![GitHub last commit](https://img.shields.io/github/last-commit/sigmavirus24/github3.py?logo=python&style=flat-square)
   [![PyPI](https://img.shields.io/pypi/v/github3.py?style=flat-square)](https://pypi.org/project/github3.py)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/github3.py?style=flat-square)](https://pypistats.org/packages/github3.py)
-- [python-inquirer](https://github.com/magmax/python-inquirer) &mdash;
-  ![GitHub stars](https://img.shields.io/github/stars/magmax/python-inquirer?style=flat-square)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/magmax/python-inquirer?logo=python&style=flat-square)
-  [![PyPI](https://img.shields.io/pypi/v/python-inquirer?style=flat-square)](https://pypi.org/project/python-inquirer)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/python-inquirer?style=flat-square)](https://pypistats.org/packages/python-inquirer)
 - [irpf-investidor](https://github.com/staticdev/irpf-investidor) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/staticdev/irpf-investidor?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/irpf-investidor?logo=python&style=flat-square)
@@ -119,6 +113,12 @@ for repo, galaxy_id in repos:
   [![Version](https://img.shields.io/github/release/staticdev/ansible-role-signal.svg)](https://github.com/staticdev/ansible-role-signal/releases/)
   [![Downloads](https://img.shields.io/ansible/role/d/55466)](https://galaxy.ansible.com/staticdev/ansible-role-signal)
   [![Quality](https://img.shields.io/ansible/quality/55466)](https://galaxy.ansible.com/staticdev/ansible-role-signal)
+- [ansible-role-pyenv](https://github.com/staticdev/ansible-role-pyenv) &mdash;
+  ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-pyenv?style=flat-square)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-pyenv?logo=python&style=flat-square)
+  [![Version](https://img.shields.io/github/release/staticdev/ansible-role-pyenv.svg)](https://github.com/staticdev/ansible-role-pyenv/releases/)
+  [![Downloads](https://img.shields.io/ansible/role/d/55478)](https://galaxy.ansible.com/staticdev/ansible-role-pyenv)
+  [![Quality](https://img.shields.io/ansible/quality/55478)](https://galaxy.ansible.com/staticdev/ansible-role-pyenv)
 - [ansible-role-brave](https://github.com/staticdev/ansible-role-brave) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-brave?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-brave?logo=python&style=flat-square)
@@ -131,17 +131,11 @@ for repo, galaxy_id in repos:
   [![Version](https://img.shields.io/github/release/staticdev/ansible-role-firefox.svg)](https://github.com/staticdev/ansible-role-firefox/releases/)
   [![Downloads](https://img.shields.io/ansible/role/d/55555)](https://galaxy.ansible.com/staticdev/ansible-role-firefox)
   [![Quality](https://img.shields.io/ansible/quality/55555)](https://galaxy.ansible.com/staticdev/ansible-role-firefox)
-- [ansible-role-pyenv](https://github.com/staticdev/ansible-role-pyenv) &mdash;
-  ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-pyenv?style=flat-square)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-pyenv?logo=python&style=flat-square)
-  [![Version](https://img.shields.io/github/release/staticdev/ansible-role-pyenv.svg)](https://github.com/staticdev/ansible-role-pyenv/releases/)
-  [![Downloads](https://img.shields.io/ansible/role/d/55478)](https://galaxy.ansible.com/staticdev/ansible-role-pyenv)
-  [![Quality](https://img.shields.io/ansible/quality/55478)](https://galaxy.ansible.com/staticdev/ansible-role-pyenv)
 <!-- [[[end]]] -->
 
 <br />
 
-I have contributed to these open-source projects, among others:
+I have contributed to or previously maintained these open-source projects, among others:
 
 <!-- [[[cog
 
@@ -150,6 +144,7 @@ repos = [
     "RasaHQ/rasa",
     "spulec/freezegun",
     "cjolowicz/cookiecutter-hypermodern-python",
+    "magmax/python-inquirer",
     "geerlingguy/ansible-role-security",
 ]
 
@@ -175,6 +170,9 @@ for repo in repos:
 - [cookiecutter-hypermodern-python](https://github.com/cjolowicz/cookiecutter-hypermodern-python) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/cjolowicz/cookiecutter-hypermodern-python?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/cjolowicz/cookiecutter-hypermodern-python?logo=python&style=flat-square)
+- [python-inquirer](https://github.com/magmax/python-inquirer) &mdash;
+  ![GitHub stars](https://img.shields.io/github/stars/magmax/python-inquirer?style=flat-square)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/magmax/python-inquirer?logo=python&style=flat-square)
 - [ansible-role-security](https://github.com/geerlingguy/ansible-role-security) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/geerlingguy/ansible-role-security?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/geerlingguy/ansible-role-security?logo=python&style=flat-square)
