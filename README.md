@@ -5,7 +5,7 @@
 - 🌱 I’m a researcher in **chatbots and artificial intelligence**
 - 💬 Ask me **about anything [here](https://github.com/staticdev/staticdev/issues)**
 
-<p align="left"><img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="python" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/golang/golang-icon.svg" alt="golang" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" alt="docker" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg" alt="ansible" width="40" height="40"/></p>
+<p align="left"><img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="python" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/golang/golang-icon.svg" alt="golang" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/nixos/nixos-icon.svg" alt="NixOS" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" alt="docker" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg" alt="ansible" width="40" height="40"/></p>
 
 <br />
 
@@ -47,25 +47,6 @@ for repo in repos:
 """
     cog.out(entry)
 
-namespace = "staticdev"
-repos = [
-    ("staticdev/ansible-role-signal", "signal", 55466),
-    ("staticdev/ansible-role-pyenv", "pyenv", 55478),
-    ("staticdev/ansible-role-brave", "brave", 55985),
-    ("staticdev/ansible-role-firefox", "firefox", 55555),
-]
-
-for repo, name, galaxy_id in repos:
-    org, _, package = repo.partition("/")
-    entry = f"""\
-- [{package}]({url}) &mdash;
-  ![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=python&style=flat-square)
-  ![GitHub stars](https://img.shields.io/github/stars/{repo}?style=flat-square)
-  [![Version](https://img.shields.io/github/release/{repo}.svg)](https://github.com/{repo}/releases/)
-  [![Downloads](https://img.shields.io/ansible/role/d/{namespace}/{name})](https://galaxy.ansible.com/{repo})
-"""
-    cog.out(entry)
-
 ]]] -->
 - [isort](https://github.com/PyCQA/isort) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/PyCQA/isort?style=flat-square)
@@ -100,26 +81,6 @@ for repo, name, galaxy_id in repos:
 - [dotfiles-eg](https://github.com/staticdev/dotfiles-eg) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/staticdev/dotfiles-eg?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/dotfiles-eg?logo=python&style=flat-square)
-- [ansible-role-signal](https://github.com/staticdev/ansible-role-signal) &mdash;
-  ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-signal?style=flat-square)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-signal?logo=python&style=flat-square)
-  [![Version](https://img.shields.io/github/release/staticdev/ansible-role-signal.svg)](https://github.com/staticdev/ansible-role-signal/releases/)
-  [![Downloads](https://img.shields.io/ansible/role/d/staticdev/signal)](https://galaxy.ansible.com/staticdev/ansible-role-signal)
-- [ansible-role-pyenv](https://github.com/staticdev/ansible-role-pyenv) &mdash;
-  ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-pyenv?style=flat-square)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-pyenv?logo=python&style=flat-square)
-  [![Version](https://img.shields.io/github/release/staticdev/ansible-role-pyenv.svg)](https://github.com/staticdev/ansible-role-pyenv/releases/)
-  [![Downloads](https://img.shields.io/ansible/role/d/staticdev/pyenv)](https://galaxy.ansible.com/staticdev/ansible-role-pyenv)
-- [ansible-role-brave](https://github.com/staticdev/ansible-role-brave) &mdash;
-  ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-brave?style=flat-square)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-brave?logo=python&style=flat-square)
-  [![Version](https://img.shields.io/github/release/staticdev/ansible-role-brave.svg)](https://github.com/staticdev/ansible-role-brave/releases/)
-  [![Downloads](https://img.shields.io/ansible/role/d/staticdev/brave)](https://galaxy.ansible.com/staticdev/ansible-role-brave)
-- [ansible-role-firefox](https://github.com/staticdev/ansible-role-firefox) &mdash;
-  ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-firefox?style=flat-square)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-firefox?logo=python&style=flat-square)
-  [![Version](https://img.shields.io/github/release/staticdev/ansible-role-firefox.svg)](https://github.com/staticdev/ansible-role-firefox/releases/)
-  [![Downloads](https://img.shields.io/ansible/role/d/staticdev/firefox)](https://galaxy.ansible.com/staticdev/ansible-role-firefox)
 <!-- [[[end]]] -->
 
 <br />
@@ -146,6 +107,25 @@ for repo in repos:
 """
     cog.out(entry)
 
+namespace = "staticdev"
+repos = [
+    ("staticdev/ansible-role-pyenv", "pyenv", 55478),
+    ("staticdev/ansible-role-signal", "signal", 55466),
+    ("staticdev/ansible-role-brave", "brave", 55985),
+    ("staticdev/ansible-role-firefox", "firefox", 55555),
+]
+
+for repo, name, galaxy_id in repos:
+    org, _, package = repo.partition("/")
+    entry = f"""\
+- [{package}]({url}) &mdash;
+  ![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=python&style=flat-square)
+  ![GitHub stars](https://img.shields.io/github/stars/{repo}?style=flat-square)
+  [![Version](https://img.shields.io/github/release/{repo}.svg)](https://github.com/{repo}/releases/)
+  [![Downloads](https://img.shields.io/ansible/role/d/{namespace}/{name})](https://galaxy.ansible.com/{repo})
+"""
+    cog.out(entry)
+
 ]]] -->
 - [grpc](https://github.com/grpc/grpc) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/grpc/grpc?style=flat-square)
@@ -165,7 +145,36 @@ for repo in repos:
 - [ansible-role-security](https://github.com/geerlingguy/ansible-role-security) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/geerlingguy/ansible-role-security?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/geerlingguy/ansible-role-security?logo=python&style=flat-square)
+- [ansible-role-pyenv](https://github.com/staticdev/ansible-role-pyenv) &mdash;
+  ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-pyenv?style=flat-square)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-pyenv?logo=python&style=flat-square)
+  [![Version](https://img.shields.io/github/release/staticdev/ansible-role-pyenv.svg)](https://github.com/staticdev/ansible-role-pyenv/releases/)
+  [![Downloads](https://img.shields.io/ansible/role/d/staticdev/pyenv)](https://galaxy.ansible.com/staticdev/ansible-role-pyenv)
+- [ansible-role-signal](https://github.com/staticdev/ansible-role-signal) &mdash;
+  ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-signal?style=flat-square)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-signal?logo=python&style=flat-square)
+  [![Version](https://img.shields.io/github/release/staticdev/ansible-role-signal.svg)](https://github.com/staticdev/ansible-role-signal/releases/)
+  [![Downloads](https://img.shields.io/ansible/role/d/staticdev/signal)](https://galaxy.ansible.com/staticdev/ansible-role-signal)
+- [ansible-role-brave](https://github.com/staticdev/ansible-role-brave) &mdash;
+  ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-brave?style=flat-square)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-brave?logo=python&style=flat-square)
+  [![Version](https://img.shields.io/github/release/staticdev/ansible-role-brave.svg)](https://github.com/staticdev/ansible-role-brave/releases/)
+  [![Downloads](https://img.shields.io/ansible/role/d/staticdev/brave)](https://galaxy.ansible.com/staticdev/ansible-role-brave)
+- [ansible-role-firefox](https://github.com/staticdev/ansible-role-firefox) &mdash;
+  ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-firefox?style=flat-square)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-firefox?logo=python&style=flat-square)
+  [![Version](https://img.shields.io/github/release/staticdev/ansible-role-firefox.svg)](https://github.com/staticdev/ansible-role-firefox/releases/)
+  [![Downloads](https://img.shields.io/ansible/role/d/staticdev/firefox)](https://galaxy.ansible.com/staticdev/ansible-role-firefox)
 <!-- [[[end]]] -->
+
+### 📫 Find me on social media
+
+<br />
+<p align="center">
+    <a href="https://www.linkedin.com/in/staticdev/"><img src="images/linkedin.svg"></a>
+    &nbsp;&nbsp;&nbsp;
+    <a href="https://discordapp.com/users/1347604786899456132"><img src="images/discord.svg"></a>
+    &nbsp;&nbsp;&nbsp;
 
 <br />
 
