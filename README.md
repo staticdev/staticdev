@@ -44,7 +44,6 @@ repos = [
     "nextcloud/ansible-collection-nextcloud-admin",
     "staticdev/linux-workstation-playbook",
     "staticdev/cleancontacts",
-    "staticdev/dotfiles-eg",
 ]
 
 for repo in repos:
@@ -87,9 +86,6 @@ for repo in repos:
 - [cleancontacts](https://github.com/staticdev/cleancontacts) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/staticdev/cleancontacts?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/cleancontacts?logo=python&style=flat-square)
-- [dotfiles-eg](https://github.com/staticdev/dotfiles-eg) &mdash;
-  ![GitHub stars](https://img.shields.io/github/stars/staticdev/dotfiles-eg?style=flat-square)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/dotfiles-eg?logo=python&style=flat-square)
 <!-- [[[end]]] -->
 
 <br />
