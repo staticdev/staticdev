@@ -66,6 +66,11 @@ for repo in repos:
   ![GitHub last commit](https://img.shields.io/github/last-commit/sigmavirus24/github3.py?logo=python&style=flat-square)
   [![PyPI](https://img.shields.io/pypi/v/github3.py?style=flat-square)](https://pypi.org/project/github3.py)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/github3.py?style=flat-square)](https://pypistats.org/packages/github3.py)
+- [OHF-Voice/intents](https://github.com/OHF-Voice/intents)
+  ![GitHub stars](https://img.shields.io/github/stars/OHF-Voice/intents?style=flat-square)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/OHF-Voice/intents?logo=python&style=flat-square)
+  [![PyPI](https://img.shields.io/pypi/v/home-assistant-intents?style=flat-square)](https://pypi.org/project/home-assistant-intents)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/home-assistant-intents?style=flat-square)](https://pypistats.org/packages/home-assistant-intents)
 - [irpf-investidor](https://github.com/staticdev/irpf-investidor) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/staticdev/irpf-investidor?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/irpf-investidor?logo=python&style=flat-square)
@@ -80,9 +85,11 @@ for repo in repos:
   ![GitHub stars](https://img.shields.io/github/stars/nextcloud/ansible-collection-nextcloud-admin?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/nextcloud/ansible-collection-nextcloud-admin?logo=python&style=flat-square)
   [![Version](https://img.shields.io/github/release/nextcloud/ansible-collection-nextcloud-admin.svg)](https://github.com/nextcloud/ansible-collection-nextcloud-admin/releases/)
-- [linux-workstation-playbook](https://github.com/staticdev/linux-workstation-playbook) &mdash;
-  ![GitHub stars](https://img.shields.io/github/stars/staticdev/linux-workstation-playbook?style=flat-square)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/linux-workstation-playbook?logo=python&style=flat-square)
+- [broadworks_ocip](https://github.com/broadworks-ocip/broadworks_ocip) &mdash;
+  ![GitHub stars](https://img.shields.io/github/stars/broadworks-ocip/broadworks_ocip?style=flat-square)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/broadworks-ocip/broadworks_ocip?logo=python&style=flat-square)
+  [![PyPI](https://img.shields.io/pypi/v/broadworks_ocip?style=flat-square)](https://pypi.org/project/broadworks_ocip)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/broadworks_ocip?style=flat-square)](https://pypistats.org/packages/broadworks_ocip)
 - [cleancontacts](https://github.com/staticdev/cleancontacts) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/staticdev/cleancontacts?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/cleancontacts?logo=python&style=flat-square)
