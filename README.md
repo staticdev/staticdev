@@ -5,7 +5,7 @@
 - 🌱 I’m a researcher in **chatbots and artificial intelligence**
 - 💬 Ask me **about anything [here](https://github.com/staticdev/staticdev/issues)**
 
-<p align="left"><img src="images/python-icon.svg" alt="Python" width="40" height="40"/> <img src="images/golang-icon.svg" alt="Golang" width="40" height="40"/> <img src="images/nixos-icon.svg" alt="NixOS" width="40" height="40"/> <img src="images/kubernetes-icon.svg" alt="Kubernetes" width="40" height="40"/> <img src="images/home-assistant.svg" alt="Home Assistant" width="40" height="40"/> <img src="images/nextcloud-icon.svg" alt="Nextcloud" width="40" height="40"/></p>
+<p align="left"><img src="images/nixos-icon.svg" alt="NixOS" width="40" height="40"/> <img src="images/kubernetes-icon.svg" alt="Kubernetes" width="40" height="40"/> <img src="images/home-assistant.svg" alt="Home Assistant" width="40" height="40"/> <img src="images/nextcloud-icon.svg" alt="Nextcloud" width="40" height="40"/><img src="images/python-icon.svg" alt="Python" width="40" height="40"/> <img src="images/golang-icon.svg" alt="Golang" width="40" height="40"/> </p>
 
 ### 📫 Find me on social media
 
@@ -23,8 +23,11 @@ I maintain these open-source projects:
 <!-- [[[cog
 
 repos = [
+    "NixOS/nixpkgs",
     "PyCQA/isort",
     "sigmavirus24/github3.py",
+    "OHF-Voice/intents",
+    "pulsejet/nextcloud-oidc-login",
     "staticdev/irpf-investidor",
     "staticdev/human-readable",
 ]
@@ -56,6 +59,9 @@ for repo in repos:
     cog.out(entry)
 
 ]]] -->
+- [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs)
+  ![GitHub stars](https://img.shields.io/github/stars/NixOS/nixpkgs?style=flat-square)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/NixOS/nixpkgs?logo=python&style=flat-square)
 - [isort](https://github.com/PyCQA/isort) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/PyCQA/isort?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/PyCQA/isort?logo=python&style=flat-square)
@@ -71,11 +77,9 @@ for repo in repos:
   ![GitHub last commit](https://img.shields.io/github/last-commit/OHF-Voice/intents?logo=python&style=flat-square)
   [![PyPI](https://img.shields.io/pypi/v/home-assistant-intents?style=flat-square)](https://pypi.org/project/home-assistant-intents)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/home-assistant-intents?style=flat-square)](https://pypistats.org/packages/home-assistant-intents)
-- [irpf-investidor](https://github.com/staticdev/irpf-investidor) &mdash;
-  ![GitHub stars](https://img.shields.io/github/stars/staticdev/irpf-investidor?style=flat-square)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/irpf-investidor?logo=python&style=flat-square)
-  [![PyPI](https://img.shields.io/pypi/v/irpf-investidor?style=flat-square)](https://pypi.org/project/irpf-investidor)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/irpf-investidor?style=flat-square)](https://pypistats.org/packages/irpf-investidor)
+- [nextcloud-oidc-login](https://github.com/pulsejet/nextcloud-oidc-login)
+  ![GitHub stars](https://img.shields.io/github/stars/pulsejet/nextcloud-oidc-login?style=flat-square)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/pulsejet/nextcloud-oidc-login?logo=python&style=flat-square)
 - [human-readable](https://github.com/staticdev/human-readable) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/staticdev/human-readable?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/human-readable?logo=python&style=flat-square)
@@ -108,6 +112,7 @@ repos = [
     "cjolowicz/cookiecutter-hypermodern-python",
     "magmax/python-inquirer",
     "geerlingguy/ansible-role-security",
+    "staticdev/irpf-investidor",
 ]
 
 for repo in repos:
@@ -120,10 +125,20 @@ for repo in repos:
     cog.out(entry)
 
 namespace = "staticdev"
-repos = [
+for repo, name in repos:
+    org, _, package = repo.partition("/")
+    entry = f"""\
+- [{package}]({url}) &mdash;
+  ![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=python&style=flat-square)
+  ![GitHub stars](https://img.shields.io/github/stars/{repo}?style=flat-square)
+  [![Version](https://img.shields.io/github/release/{repo}.svg)](https://github.com/{repo}/releases/)
+  [![Downloads](https://img.shields.io/ansible/role/d/{namespace}/{name})](https://galaxy.ansible.com/{repo})
+"""
+    cog.out(entry)
+
+galaxy_repos = [
     ("staticdev/ansible-role-pyenv", "pyenv", 55478),
     ("staticdev/ansible-role-signal", "signal", 55466),
-    ("staticdev/ansible-role-brave", "brave", 55985),
     ("staticdev/ansible-role-firefox", "firefox", 55555),
 ]
 
@@ -167,11 +182,6 @@ for repo, name, galaxy_id in repos:
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-signal?logo=python&style=flat-square)
   [![Version](https://img.shields.io/github/release/staticdev/ansible-role-signal.svg)](https://github.com/staticdev/ansible-role-signal/releases/)
   [![Downloads](https://img.shields.io/ansible/role/d/staticdev/signal)](https://galaxy.ansible.com/staticdev/ansible-role-signal)
-- [ansible-role-brave](https://github.com/staticdev/ansible-role-brave) &mdash;
-  ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-brave?style=flat-square)
-  ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-brave?logo=python&style=flat-square)
-  [![Version](https://img.shields.io/github/release/staticdev/ansible-role-brave.svg)](https://github.com/staticdev/ansible-role-brave/releases/)
-  [![Downloads](https://img.shields.io/ansible/role/d/staticdev/brave)](https://galaxy.ansible.com/staticdev/ansible-role-brave)
 - [ansible-role-firefox](https://github.com/staticdev/ansible-role-firefox) &mdash;
   ![GitHub stars](https://img.shields.io/github/stars/staticdev/ansible-role-firefox?style=flat-square)
   ![GitHub last commit](https://img.shields.io/github/last-commit/staticdev/ansible-role-firefox?logo=python&style=flat-square)
